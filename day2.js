@@ -97,8 +97,58 @@ const dog = {
 
 console.log("helo"+ " " + dog["name"]);
 
+class animal {
+  constructor(name, legcount, speaks) {
+    this.tellsThene =  name ;
+    this.tellsthelegcount =  legcount;
+    this.tellsthespeaks =   speaks;
+  }
+  speak() {
+    console.log("hi there " + this.tellsThename + " " + this.tellsthespeaks);
+  }
+}
 
 
+let dog = new animal("doggie", 2, "bhow bhow");
+let catua = new animal("catua", 4, "meow meow"); 
 
+dog.speak();  
+  
 
+////////////////////////////////////////////////////////////////////
+output
+
+class animal {
+  constructor(name, legcount, speaks) {
+    this.name = tells the name ;
+    this.legcount = tells the legcount;
+    this.speaks = = tells the speaks;
+  }
+}
+this.name decides what the name of the animal is will shown and the variable name doggie is name there that will be shown after the result tells the name 
+
+const currentDate = new Date(); 
+
+console.log(currentDate.getTime());
+
+function calculateSum () {
+ let a = 0;
+  for (let  i = 0 ; i<10000000; i++ ) {
+  a = a + i 
+  }
+  return a ;
+}
+
+const beforedate = new Date ();
+const beforetimeinms = beforedate.getTime(); 
+calculateSum();
+
+const afterdate = new Date ();
+const aftertimeinms = afterdate.getTime();
+
+console.log(aftertimeinms - beforetimeinms);
+
+for currentTimeprint() {
+  console.log(new Date().getTime());
+}
 
